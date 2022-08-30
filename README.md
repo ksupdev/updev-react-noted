@@ -1,3 +1,25 @@
+# vscode extension
+1. vscode-icon
+2. es7/react/..
+3. html to jsx
+4. color highlight
+5. path intellisense
+6. matching tag
+7. prettier
+
+# customconfig vs code
+```
+# Edit Emmet Auto-Suggestion Problem (Add in setup JSON)
+"emmet.syntaxProfiles": {
+    "javascript": "jsx"
+},
+"emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+},
+"emmet.triggerExpansionOnTab": true,
+
+```
+
 # updev-react-noted
 for learning react
 

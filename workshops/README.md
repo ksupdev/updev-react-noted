@@ -14,3 +14,9 @@ npx create-react-app hello-react
 ananda@karoons-MacBook-Pro workshops % yarn -v
 1.22.19
 ```
+
+> เราสามารถ start react project โดยใช้ได้ทั้ง npm และ yarn
+```
+npm start
+yarn start
+```
