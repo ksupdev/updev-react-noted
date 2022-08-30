@@ -1,17 +1,19 @@
-//import React, { Component } from 'react'//
-
-// React Component class
-// export default class App extends Component {
-//   render() {
-//     return (
-//       <div>React Component class</div>
-//     )
-//   }
-// }
-
-// React functional component class
 import React from "react";
 
-export default function App() {
-  return <div>React functionl class</div>;
-}
+export default () => {
+  const var1 = 0;
+  const var2 = "hello";
+  const var3 = true;
+  const var4 = false;
+
+  return (
+    <div>
+      <h1>Karoon {var1}</h1>
+      <h1>Karoon {var2}</h1>
+      <h1>Karoon {var3 && "yes"}</h1>
+      <h1>Karoon {var4 && "yes"}</h1>
+      {var3 && <h1>YES</h1>}
+      {var4 ? <h1>YES</h1> : <h1>NO</h1>}
+    </div>
+  );
+};
