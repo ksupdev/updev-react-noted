@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import CounterClassComponent from "./CounterClassComponent";
 import CounterFunctionalComponent from "./CounterFunctionalComponent";
 import Ex1Styles from "./components/ex1_styles";
+import Ex2Img from "./components/ex2_image";
 
 export default () => {
   let var1 = 0;
@@ -32,6 +33,7 @@ export default () => {
       <CounterClassComponent></CounterClassComponent>
       <CounterFunctionalComponent></CounterFunctionalComponent>
       <Ex1Styles />
+      <Ex2Img />
     </div>
   );
 };
