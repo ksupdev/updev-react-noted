@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import CounterClassComponent from "./CounterClassComponent";
+import CounterFunctionalComponent from "./CounterFunctionalComponent";
 
 export default () => {
   let var1 = 0;
@@ -26,6 +28,8 @@ export default () => {
       >
         Add (Count value)
       </button>
+      <CounterClassComponent></CounterClassComponent>
+      <CounterFunctionalComponent></CounterFunctionalComponent>
     </div>
   );
 };

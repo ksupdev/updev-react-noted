@@ -69,3 +69,5 @@ yarn
 โดยปกติตัวแปลที่มีการใช้งานทั่วไป หลังจากมีการ render จาก Component ไปแล้ว `เมื่อมีการเปลี่ยนแปลงค่าจะไม่ส่งผล component มีการ render เพื่อแสดงผลลัพธ์นั้นใหม่ได้`
 
 ดังนั้นถ้าเราต้องการเรียกใช้งาน `Hook function` โดยชื่อของ function นั้นๆจะมีคำนำหน้าว่า `use` เสมอ
+
+### Class Component vs Functional Component
