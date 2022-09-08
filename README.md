@@ -70,4 +70,10 @@ yarn
 
 ดังนั้นถ้าเราต้องการเรียกใช้งาน `Hook function` โดยชื่อของ function นั้นๆจะมีคำนำหน้าว่า `use` เสมอ
 
+> ตัวแปล State คือตัวแปลที่ถ้ามีการเปลี่ยนค่าจะทำให้ method render นั้นทำงานเพื่อทำการแสดงผลใหม่
+
 ### Class Component vs Functional Component
+
+ทั้ง 2 ตัวจะมีการทำงานที่เหมือนกันแต่ต่างกันที่ขนาดของ app โดย Class component นั้นจะมีการ Extends Component และมีการเรียก method `render()` เพื่อทำการแสดง html
+
+ส่วน Functional component นั้นจะมีขนาดในการที่เล็กกว่ามาก
