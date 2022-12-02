@@ -89,3 +89,13 @@ yarn
 ### Image
 
 การใช้งานรุปภาพเราจะต้องเอารูปไปใส้ใน public forder และเราสามารถเรียกใช้งาน `/logo512.png` ใน public folder ตรงๆได้เลยน
+
+### Variable
+
+```
+    let     counter1 // ตัวแปลที่เราแก้ได้
+    var     counter1 // ตัวแปลที่เราแก้ได้
+    const   counter2 // ค่าคงที่
+    state in class:         this.statr={counter3:0}             // {variableName:Default value}
+    state in functional:    [count4,setCount4] = useState(0)    // usestate(Defaultvalue)
+```

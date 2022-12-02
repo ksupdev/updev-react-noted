@@ -34,6 +34,7 @@ export default () => {
       <CounterFunctionalComponent></CounterFunctionalComponent>
       <Ex1Styles />
       <Ex2Img />
+      <Ex2Img image="/images/logo512.png" />
     </div>
   );
 };
